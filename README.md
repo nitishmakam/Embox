@@ -15,7 +15,8 @@ Embox is an extemely simple Web application written in Go. This repository is an
 * Docker
 * Docker Compose - For building and deploying the required containers to run the application
 
-Embox is a simple unauthenticated CRUD application for managing names of movies. The application exposes the API endpoints:
+## API Spec
+
 - <code>GET</code> /movies - List all the movies
 - <code>GET</code> /movies/:id - Return a movie given it's ID
 - <code>POST</code> /movies - Create a movie
@@ -29,3 +30,14 @@ Request/Response Payloads will have the following structure -
   "name": "Guardians Of The Galaxy"
 }
 ```
+
+## Requirement
+- Docker on a Linux/Mac Environment
+
+## How to Run
+1. Clone the repository to your machine.
+2. Navigate to the cloned repo via the terminal.
+3. Execute
+ ```bash
+   docker compose up
+   ```
