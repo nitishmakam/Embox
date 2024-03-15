@@ -71,4 +71,3 @@ Content-Type: application/json
 ```http
 DELETE http://localhost:8443/movies/46ab4db57se2bn4lo4
 ```
-     
