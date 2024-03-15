@@ -31,7 +31,7 @@ Request/Response Payloads will have the following structure -
 }
 ```
 
-## Requirement
+## System Requirements
 - Docker on a Linux/Mac Environment
 
 ## How to Run
@@ -41,3 +41,34 @@ Request/Response Payloads will have the following structure -
  ```bash
    docker compose up
    ```
+4. The web application would be providing services on port 8443
+
+## Example API Requests
+```http
+GET http://localhost:8443/movies
+```
+```http
+GET http://localhost:8443/movies/46ab4db57se2bn4lo4
+```
+```http
+POST http://localhost:8443/movies
+Content-Type: application/json
+
+{
+ "id": "46ab4db57se2bn4lo4",
+ "name": "The Godfather"
+}
+```
+```http
+PUT http://localhost:8443/movies/46ab4db57se2bn4lo4
+Content-Type: application/json
+
+{
+ "id": "46ab4db57se2bn4lo4",
+ "name": "The Dictator"
+}
+```
+```http
+DELETE http://localhost:8443/movies/46ab4db57se2bn4lo4
+```
+     
