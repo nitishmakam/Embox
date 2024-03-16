@@ -1,6 +1,6 @@
 # Embox
 
-Embox is an extemely simple Web application written in Go. This repository is an attempt to familiarize myself with the following technologies:
+Embox is an extremely simple Web application written in Go. This project is an attempt to familiarize myself with the following technologies:
 * Go
 * Web Development in Go using Gin
 * Mongo DB
@@ -13,7 +13,7 @@ Embox is an extemely simple Web application written in Go. This repository is an
 * Mongo DB - As a Datastore
 * MongoDB Go Driver - To connect Go backend to MongoDB
 * Docker
-* Docker Compose - For building and deploying the required containers to run the application
+* Docker Compose - Build and deploy all the required containers for the app
 
 ## API Spec
 
@@ -41,7 +41,7 @@ Request/Response Payloads will have the following structure -
  ```bash
    docker compose up
    ```
-4. The web application would be providing services on port 8443
+4. The web application could be accessed via port 8443
 
 ## Example API Requests
 ```http
